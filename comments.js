@@ -71,4 +71,6 @@ router.put('/update/:id', function (req, res) {
   var newComment = new Comment({
     text: req.body.text,
     user: req.body.user,
+  });
+});
 
